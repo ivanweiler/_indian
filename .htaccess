@@ -1,0 +1,10 @@
+Options +Indexes
+IndexOptions FancyIndexing FoldersFirst XHTML HTMLTable SuppressDescription NameWidth=* SuppressHTMLPreamble SuppressIcon SuppressRules
+
+#HeaderName /_indian/header.html
+#ReadmeName /_indian/footer.html
+
+IndexIgnore /.htaccess /_indian
+
+IndexStyleSheet "/_indian/style.css"
+IndexHeadInsert '  <meta name="viewport" content="width=device-width, initial-scale=1" /><script src="/_indian/script.js"></script>'

@@ -1,0 +1,182 @@
+/*!
+ *  Font Awesome 4.4.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('fonts/fontawesome.eot');
+  src: url('fonts/fonts/fontawesome.eot?#iefix') format('embedded-opentype'),
+       url('fonts/fontawesome.woff') format('woff'),
+       url('fonts/fontawesome.ttf') format('truetype'),
+       url('fonts/fontawesome.svg#FontAwesome') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/**
+ * Open Sans
+ */
+@font-face {
+  font-family: 'Open Sans';
+  src: url("fonts/OpenSans-Regular.eot?v=1.1.0");
+  src: url("fonts/OpenSans-Regular.eot?#iefix&v=1.1.0") format("embedded-opentype"), 
+        url("fonts/OpenSans-Regular.woff2?v=1.1.0") format("woff2"), 
+        url("fonts/OpenSans-Regular.woff?v=1.1.0") format("woff"), 
+        url("fonts/OpenSans-Regular.ttf?v=1.1.0") format("truetype"), 
+        url("fonts/OpenSans-Regular.svg?v=1.1.0#Regular") format("svg");
+  font-weight: normal;
+  font-style: normal; 
+}
+/* END Regular */
+
+body {
+  width: 76%; 
+  margin: 0 auto; 
+  font-family:'Open Sans', sans-serif;
+  color: #777;
+}
+
+h1 { 
+  word-wrap: break-word;
+}
+
+a { 
+  text-decoration: none; 
+  display: block; padding: 5px 0; 
+  color: #4078C0;
+}
+a:hover { 
+  text-decoration: underline; 
+}
+a i { 
+  margin-right: 5px;
+  color: #777;
+}
+
+a i.fa-folder {
+  color: #4078C0;
+}
+
+table { 
+  width: 100%; 
+  margin-bottom: 30px; 
+} 
+th, td { 
+  text-align: left; 
+}
+td {
+  border-bottom: 1px solid #edf1f5;
+}
+
+tr:nth-child(even) td { }
+
+address { 
+  font-size:.9em; 
+  margin-bottom: 30px; 
+}
+
+@media all and (max-width: 1024px) {
+    body { width: 96%; } 
+}
+
+@media all and (max-width: 800px) {
+    th:nth-child(2), td:nth-child(2){
+        display:none;
+        width:0;
+        height:0;
+        opacity:0;
+        visibility: collapse;
+    }
+}
+
+@media all and (max-width: 600px) {
+    th:nth-child(3), td:nth-child(3){
+        display:none;
+        width:0;
+        height:0;
+        opacity:0;
+        visibility: collapse;
+    }
+}
+
+/**
+ *  Font Awesome for icons
+ */
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* makes the font 33% larger relative to the icon container */
+.fa-lg {
+  font-size: 1.33333333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+.fa-fw {
+  width: 1.28571429em;
+  text-align: center;
+}
+
+/* Custom FA classes */
+.fa:before,
+.fa-file:before {
+  content: "\e807";
+}
+.fa-parent-dir:before {
+  content: "\e812";
+}
+.fa-folder:before {
+  content: "\e80f";
+}
+.fa-txt:before,
+.fa-log:before {
+  content: "\e802";
+}
+.fa-pdf:before {
+  content: "\e800";
+}
+.fa-doc:before,
+.fa-docx:before {
+  content: "\e804";
+}
+.fa-xls:before,
+.fa-xlsx:before {
+  content: "\f1c3";
+}
+.fa-pps:before,
+.fa-ppt:before,
+.fa-pptx:before {
+  content: "\e805";
+}
+.fa-jpg:before,
+.fa-jpeg:before,
+.fa-png:before,
+.fa-gif:before,
+.fa-bmp:before,
+.fa-svg:before {
+  content: "\e809";
+}
+.fa-gz:before,
+.fa-tgz:before,
+.fa-tar:before
+.fa-zip:before {
+  content: "\e80a";
+}
+.fa-mp3:before,
+.fa-wav:before {
+  content: "\e80b";
+}
+.fa-mpeg:before,
+.fa-mp4:before {
+  content: "\e80c";
+}
+.fa-html:before,
+.fa-phtml:before,
+.fa-php:before,
+.fa-js:before {
+  content: "\e80d";
+}
